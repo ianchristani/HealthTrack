@@ -1,0 +1,104 @@
+/* normalizing */
+.container-fluid, #navbarNavDropdown{
+    margin:0;
+    padding:0;
+}
+
+a, #navbarDropdownMenuLink, .dropdown-item, .dropdown-menu{
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(71, 255, 47);
+    background-color: rgb(39, 4, 119);
+}
+
+#navbar{
+    padding:0;   
+}
+
+/* content */
+#main{
+    background-image: url('run.jpg');
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    margin:0;
+}
+
+/* contact form */
+#contactform{
+    display:none;
+    position: relative;
+}
+
+.md-3{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(59, 38, 107, 0.8);
+}
+
+#subject, #mens, #submitbutton{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+}
+
+#email{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+}
+
+#subject, #mens, #email{
+    background-color: rgba(49, 48, 110, 0.8);
+    color: orange;
+    border-style: none;font-weight: bold;
+}
+
+#submitbutton{
+    border-style: none;
+    background-color: orange;
+    color:black;
+}
+
+/* help */
+#help{
+    display:none;
+}
+
+.mb-3{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(59, 38, 107, 0.8);
+    color: orange;
+    font-weight: bolder;
+}
+
+/* about us */
+#aboutus{
+    display:none;
+}
+
+
+/* top menu */
+#navbarNavDropdown, footer{
+    color: rgb(71, 255, 47);
+    font-weight: bolder;
+    background-color: rgb(39, 4, 119);
+}
+
+/* footer */
+.col{
+    position:relative;
+}
+
+#contact, #helpp, #about{
+    position: absolute;
+    top:1vh;
+}
+
+#copyy{
+    position: relative;
+    top:.8vh; 
+}

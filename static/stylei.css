@@ -1,0 +1,136 @@
+.container-fluid{
+    margin:0;
+    padding:0;
+}
+
+a, #navbarDropdownMenuLink{
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(71, 255, 47);
+}
+
+header, footer{
+    color: rgb(71, 255, 47);
+    font-weight: bolder;
+    background-color: rgb(39, 4, 119);
+}
+
+h1{
+    text-align: center;
+}
+
+#main{
+    background-image: url('atividade-fisica.jpg');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin:0;
+    display:
+}
+
+
+/* login menu */
+#loginmenu{
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-xs-5{
+    box-sizing: border-box;
+}
+
+#loginmenu input{
+    background-color: black;
+    color: orange;
+    font-weight: bolder;
+    border-style: none;
+    margin-bottom: 3vw;
+    padding: 1vw;
+}
+
+#button{
+    border-style: none;
+    background-color: orange;
+    color:black;
+    font-weight: bolder;
+    width: 10vw;
+}
+
+/* contact form */
+#contactform{
+    display:initial;
+    position: relative;
+    
+}
+
+.md-3{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(59, 38, 107, 0.8);
+}
+
+#subject, #mens, #submitbutton, #name{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+}
+
+#subject{
+    margin-left: 2vw;
+}
+
+#email{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+}
+
+#subject, #mens, #email, #name{
+    background-color: rgba(49, 48, 110, 0.8);
+    color: orange;
+    border-style: none;font-weight: bold;
+}
+
+#submitbutton{
+    border-style: none;
+    background-color: orange;
+    color:black;
+    font-weight: bolder;
+    margin-top: 10vh;
+}
+
+/* help */
+#help{
+    display:none;
+}
+
+.mb-3{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(59, 38, 107, 0.8);
+    color: orange;
+    font-weight: bolder;
+}
+
+/* about us */
+#aboutus{
+    display:initial;
+}
+
+/* footer */
+.col{
+    position:relative;
+}
+
+#contact,#index, #about{
+    position: absolute;
+    top:1vh;
+}
+
+#copyy{
+    position: relative;
+    top:.8vh; 
+}
