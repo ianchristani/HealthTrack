@@ -1,2 +1,2 @@
 # HealthTrack
-# Academic project using HTML, CSS, JS, Bootstrap and Django
+## **Academic** project using HTML, CSS, JS, Bootstrap and Django
